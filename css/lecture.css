@@ -1,0 +1,44 @@
+header {
+    /* background: url("../images/people-office-1.jpg");
+    background-size: cover;
+    background-position: no-repeat; */
+    background: url("../images/people-office-1.jpg") no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+img {
+    width: 350px;
+    height: 400px;
+}
+
+/* h1:hover::before {
+    content: "BA";
+}
+
+h1:hover::after {
+    content: "AN";
+} */
+
+h1:hover::after {
+    content: " ";
+    background-color: blue;
+    height: 5px;
+    display: block;
+    width: 70px;
+}
+
+/* h1:hover {
+    border-bottom: 5px solid blue;
+} */
+
+.icon {
+    border: 2px dashed black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.icon:hover {
+    fill: blue;
+}
